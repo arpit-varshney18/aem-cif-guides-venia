@@ -1,9 +1,10 @@
 {
   "identifier": "default",
   "service.ranking": 5,
-  "url": "$[env:COMMERCE_ENDPOINT;default=]",
+  "url": "http://localhost:3000/graphql",
   "acceptSelfSignedCertificates": false,
   "httpMethod": "GET",
+  "allowHttpProtocol": true,
   "httpHeaders": ["$[secret:COMMERCE_AUTH_HEADER;default=]"],
   "maxHttpConnections": 20,
   "connectionTimeout": 5000,

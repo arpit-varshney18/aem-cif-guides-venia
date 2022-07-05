@@ -4,6 +4,6 @@
     "com.venia"
   ],
   "org.apache.sling.commons.log.level": "debug",
-  "org.apache.sling.commons.log.file": "logs/error.log",
+  "org.apache.sling.commons.log.file": "logs/venia.log",
   "org.apache.sling.commons.log.additiv": "true"
 }
