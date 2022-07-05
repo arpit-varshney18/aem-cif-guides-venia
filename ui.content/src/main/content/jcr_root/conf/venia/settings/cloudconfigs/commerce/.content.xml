@@ -10,5 +10,7 @@
         cq:graphqlClient="default"
         magentoRootCategoryId="Mg=="
         magentoStore="default"
+        magentoGraphqlEndpoint="http://localhost:3000/graphql"
+        jcr:language="en_us"
         enableUIDSupport="true"/>
 </jcr:root>
